@@ -19,6 +19,27 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+vercel_deployments.txt
+
+# Dependencies
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
@@ -27,3 +48,7 @@ dist-ssr
 
 # Cloud Deployments
 .vercel
+
+# Demo / Secrets
+DEMO_CREDENTIALS.md
+DEMO_MODE_README.md
