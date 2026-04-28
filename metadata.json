@@ -1,0 +1,7 @@
+{
+  "name": "LogisticsCore",
+  "description": "A centralized infrastructure platform for worker management, scheduling, time tracking, and asset monitoring.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
